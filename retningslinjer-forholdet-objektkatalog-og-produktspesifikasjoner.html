@@ -457,15 +457,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Hva er en SOSI fagområdestandard og hva er en SOSI produktspesifikasjon, og hva er
-en SOSI objektkatalog. Begrepene i seg selv er veldefinerte, men allikevel har brukere og
-fagmiljøer til tider problemer med å bli enige om forholdet mellom dem. Dette
-dokumentet har som mål å presisere forskjellene og gi retningslinjer for hvordan man
-skal forholde seg til disse ulike konseptene.</p>
+<p>Hva er en SOSI fagområdestandard og hva er en SOSI produktspesifikasjon, og hva er en SOSI objektkatalog. Begrepene i seg selv er veldefinerte, men allikevel har brukere og fagmiljøer til tider problemer med å bli enige om forholdet mellom dem. Dette dokumentet har som mål å presisere forskjellene og gi retningslinjer for hvordan man skal forholde seg til disse ulike konseptene.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/standardnivå_objektkataloger" alt="Figur som viser forhold mellom modeller i ulike standardnivå og deres objektkataloger">
+<img src="figurer/standardnivå_objektkataloger.png" alt="Figur som viser forhold mellom modeller i ulike standardnivå og deres objektkataloger">
 </div>
 <div class="title">Figuren viser forholdet mellom modeller i ulike standardnivå og deres tilhørende objektaktalgoer</div>
 </div>
@@ -475,52 +471,36 @@ skal forholde seg til disse ulike konseptene.</p>
 <h2 id="_definisjoner">1. Definisjoner</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Under følger definisjonene av henholdsvis objektkatalog, produktspesifikasjon og
-fagområdestandard. Engelsk beskrivelse er i henhold til ISO-19000 serien, den norske er
-fritt oversatt.</p>
+<p>Under følger definisjonene av henholdsvis objektkatalog, produktspesifikasjon og fagområdestandard. Engelsk beskrivelse er i henhold til ISO-19000 serien, den norske er fritt oversatt.</p>
 </div>
 <div class="paragraph">
 <div class="title">Feature catalogue</div>
-<p>catalogue containing definitions and descriptions of the feature
-types, feature attributes and feature relationships occuring in one
-or more sets of geographic data, together with any feature
-operations that may be applied (ISO 19110)</p>
+<p>catalogue containing definitions and descriptions of the feature types, feature attributes and feature relationships occuring in one or more sets of geographic data, together with any feature operations that may be applied (ISO 19110)</p>
 </div>
 <div class="paragraph">
 <div class="title">Objektkatalog</div>
-<p>katalog som definerer og beskriver objekttyper med egenskaper,
-operasjoner og forhold objekttypene imellom, slik de framtrer i ett
-eller flere geografiske datasett</p>
+<p>katalog som definerer og beskriver objekttyper med egenskaper, operasjoner og forhold objekttypene imellom, slik de framtrer i ett eller flere geografiske datasett</p>
 </div>
 <div class="paragraph">
 <div class="title">Product specification</div>
-<p>detailed description of a <strong>dataset or dataset series</strong> together with
-additional information about the dataset that will enable it to be
-created, supplied to and used by another party (ISO 19131)</p>
+<p>detailed description of a <strong>dataset or dataset series</strong> together with additional information about the dataset that will enable it to be created, supplied to and used by another party (ISO 19131)</p>
 </div>
 <div class="paragraph">
-<p>NOTE A data product specification may be produced for production,
-sales, end-use or other purpose.</p>
+<p>NOTE A data product specification may be produced for production, sales, end-use or other purpose.</p>
 </div>
 <div class="paragraph">
 <div class="title">Produktspesifikasjon</div>
-<p>detaljert beskrivelse av ett datasett eller en serie med datasett
-med tilleggsinformasjon som gjør det mulig å produsere,
-distribuere og bruke datasettet av andre.</p>
+<p>detaljert beskrivelse av ett datasett eller en serie med datasett med tilleggsinformasjon som gjør det mulig å produsere, distribuere og bruke datasettet av andre.</p>
 </div>
 <div class="paragraph">
-<p>Merknad: En produktspesifikasjon kan lages for produksjon, salg,
-sluttbrukervirksomhet eller annet.</p>
+<p>Merknad: En produktspesifikasjon kan lages for produksjon, salg, sluttbrukervirksomhet eller annet.</p>
 </div>
 <div class="paragraph">
 <div class="title">Fagområdestandard</div>
-<p>overordnet beskrivelse av et tematisk fagområde med en
-standardisert modell over alle kjente begreper innen området.
-Merknad: En fagområdestandard skal beskrive den kjente</p>
+<p>overordnet beskrivelse av et tematisk fagområde med en standardisert modell over alle kjente begreper innen området.</p>
 </div>
 <div class="paragraph">
-<p>virkeligheten og ikke ta hensyn til om det finnes tilgjengelige eller
-planlagte datasett med alt dette innholdet.</p>
+<p>Merknad: En fagområdestandard skal beskrive den kjente virkeligheten og ikke ta hensyn til om det finnes tilgjengelige eller planlagte datasett med alt dette innholdet.</p>
 </div>
 </div>
 </div>
@@ -529,91 +509,57 @@ planlagte datasett med alt dette innholdet.</p>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="images/innsnevring" alt="Figur som viser innsnevring av standarder i en produktspesifikasjon">
+<img src="figurer/innsnevring.png" alt="Figur som viser innsnevring av standarder i en produktspesifikasjon">
 </div>
 <div class="title">Figuren viser innsnevring av standarder i en produktspesifikasjon</div>
 </div>
 <div class="sect2">
 <h3 id="_sosi_fagområdestandard">2.1. SOSI fagområdestandard</h3>
 <div class="paragraph">
-<p>En SOSI fagområdestandard utgjør en beskrivelse av selve fagområde, herunder en
-informasjonsmodell (UML applikasjonsskjema) som inneholder de modellelementer som
-fremkommer i arbeidet, som igjen er basert på alle mulige begreper som er fremkommet
-i arbeidet.</p>
+<p>En SOSI fagområdestandard utgjør en beskrivelse av selve fagområde, herunder en informasjonsmodell (UML applikasjonsskjema) som inneholder de modellelementer som fremkommer i arbeidet, som igjen er basert på alle mulige begreper som er fremkommet i arbeidet.</p>
 </div>
 <div class="paragraph">
-<p>En SOSI fagområdestandard kan beskrive objekttyper og egenskaper som ikke
-nødvendigvis er tilgjengelige i dagens leveranser, men som det er identifisert kunnskap
-om og brukerkrav for.</p>
+<p>En SOSI fagområdestandard kan beskrive objekttyper og egenskaper som ikke nødvendigvis er tilgjengelige i dagens leveranser, men som det er identifisert kunnskap om og brukerkrav for.</p>
 </div>
 <div class="paragraph">
-<p>SOSI fagområdestandarder inneholder begreper modellert i et UML applikasjonsskjema,
-og er utgangspunkt for en eller flere produktspesifikasjoner innen samme tema. SOSI
-fagområdestandarder sikrer interoperabilitet mellom produktspesifikasjoner innen samme
-tema, og utgjør et interoperabiltiets «layer» i infrastrukturen.</p>
+<p>SOSI fagområdestandarder inneholder begreper modellert i et UML applikasjonsskjema, og er utgangspunkt for en eller flere produktspesifikasjoner innen samme tema. SOSI fagområdestandarder sikrer interoperabilitet mellom produktspesifikasjoner innen samme tema, og utgjør et interoperabiltiets «layer» i infrastrukturen.</p>
 </div>
 <div class="paragraph">
-<p>SOSI fagområdestandard er som navnet sier en standard, underlagt en
-konsensusprosess i en gruppe med åpen deltakelse fra dataeiere og fageksperter, og
-også fra verdiøkere og brukere. Dette arbeidet foregår på den måten at det lages et
-forslag standardiseringsprosjekt, med en konkret målsetting og ytterligere beskrivelse av
-hva standarden skal inneholde. Dette sendes standardiseringskomiteen for Geomatikk for
-godkjenning. Når forslaget til standardiseringsprosjekt er akseptert, sendes det ut
-invitasjon til SOSI referansegrupper og publiseres på Kartverket.no for åpen deltakelse i
-arbeidet.</p>
+<p>SOSI fagområdestandard er som navnet sier en standard, underlagt en konsensusprosess i en gruppe med åpen deltakelse fra dataeiere og fageksperter, og også fra verdiøkere og brukere. Dette arbeidet foregår på den måten at det lages et forslag standardiseringsprosjekt, med en konkret målsetting og ytterligere beskrivelse av hva standarden skal inneholde. Dette sendes standardiseringskomiteen for Geomatikk for godkjenning. Når forslaget til standardiseringsprosjekt er akseptert, sendes det ut invitasjon til SOSI referansegrupper og publiseres på Kartverket.no for åpen deltakelse i arbeidet.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_sosi_produktspesifikasjon">2.2. SOSI produktspesifikasjon</h3>
 <div class="paragraph">
-<p>En SOSI produktspesifikasjon er en spesifikasjon som oppfyller de krav som er beskrevet
-i standarden SOSI produktspesifikasjoner – Krav og godkjenning (SOSI del 1).</p>
+<p>En SOSI produktspesifikasjon er en spesifikasjon som oppfyller de krav som er beskrevet i standarden SOSI produktspesifikasjoner – Krav og godkjenning (SOSI del 1).</p>
 </div>
 <div class="paragraph">
-<p>En produktspesifikasjon er en detaljert beskrivelse av et datasett eller datasettserie som
-sammen med annen informasjon er utgangspunkt for å lage eller bruke dataene. Det er
-en presis teknisk beskrivelse av produktet i form av krav som produktet bør oppfylle.</p>
+<p>En produktspesifikasjon er en detaljert beskrivelse av et datasett eller datasettserie som sammen med annen informasjon er utgangspunkt for å lage eller bruke dataene. Det er en presis teknisk beskrivelse av produktet i form av krav som produktet bør oppfylle.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>En produktspesifikasjon kan lages for ulike formål: Utgangspunkt for en nærmere
-beskrivelse av produksjonsprosessen, både med tanke på ny datafangst, men
-også for produkter avledet fra allerede eksisterende data.</p>
+<p>En produktspesifikasjon kan lages for ulike formål: Utgangspunkt for en nærmere beskrivelse av produksjonsprosessen, både med tanke på ny datafangst, men også for produkter avledet fra allerede eksisterende data.</p>
 </li>
 <li>
 <p>Beskrivelse av en produsents eksisterende data</p>
 </li>
 <li>
-<p>Utgangspunkt for brukerne vedrørende vurderingen av om dataene oppfyller de
-krav brukeren stiller.</p>
+<p>Utgangspunkt for brukerne vedrørende vurderingen av om dataene oppfyller de krav brukeren stiller.</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>De fleste produktspesifikasjoner i dag lages med utgangspunkt i å spesifisere
-eksisterende data. Det viktigste eksempel på dette er det offentlige kartgrunnlaget
-(DOK) hvor sentrale dataeiere må beskrive eksisterende data i form av
-produktspesifikasjoner, som utgangspunkt for å gjøre data tilgjengelige. Dette er til
-sammenligning ikke ulikt det som INSPIRE (Geodataloven) har som formål, å gjøre
-eksisterende data tilgjengelig, men ikke noe krav om ny datafangst for å dekke nye
-brukerbehov.</p>
+<p>De fleste produktspesifikasjoner i dag lages med utgangspunkt i å spesifisere eksisterende data. Det viktigste eksempel på dette er det offentlige kartgrunnlaget (DOK) hvor sentrale dataeiere må beskrive eksisterende data i form av produktspesifikasjoner, som utgangspunkt for å gjøre data tilgjengelige. Dette er til sammenligning ikke ulikt det som INSPIRE (Geodataloven) har som formål, å gjøre eksisterende data tilgjengelig, men ikke noe krav om ny datafangst for å dekke nye brukerbehov.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_en_produktspesifikasjon_kan_gjerne_brukes_som_et_utkast_til_en_standard_men_da_i_en_konsensusprosess_og_med_åpen_deltakelse">2.3. En produktspesifikasjon kan gjerne brukes som et utkast til en standard, men da i en konsensusprosess og med åpen deltakelse</h3>
 <div class="paragraph">
-<p>Objektkatalogen er en katalog som definerer og beskriver begreper, dvs objekttyper med
-egenskaper, operasjoner og assosiasjoner. Både SOSI fagområdestandarder og SOSI
-produktspesifikasjoner har en objektkatalog. Objektkatalogen er modellert i UML (UML
-applikasjonsskjema) og alle modellelementer dokumenteres i tillegg tekstlig.</p>
+<p>Objektkatalogen er en katalog som definerer og beskriver begreper, dvs objekttyper med egenskaper, operasjoner og assosiasjoner. Både SOSI fagområdestandarder og SOSI produktspesifikasjoner har en objektkatalog. Objektkatalogen er modellert i UML (UML applikasjonsskjema) og alle modellelementer dokumenteres i tillegg tekstlig.</p>
 </div>
 <div class="paragraph">
-<p>En fagområdestandards objektkatalog vil ha få påkrevde egenskaper, bare de
-egenskaper som anses nødvendig å ha med i alle produktspesifikasjoner innen samme
-tema. Eksempler på dette er egenskaper som er nødvendig for å identifisere objektet,
-slik som objekttypenavn og identifikasjon, egenskaper som realiserer lovpålegg, samt
-geometri.</p>
+<p>En fagområdestandards objektkatalog vil ha få påkrevde egenskaper, bare de egenskaper som anses nødvendig å ha med i alle produktspesifikasjoner innen samme tema. Eksempler på dette er egenskaper som er nødvendig for å identifisere objektet, slik som objekttypenavn og identifikasjon, egenskaper som realiserer lovpålegg, samt geometri.</p>
 </div>
 </div>
 </div>
@@ -622,9 +568,7 @@ geometri.</p>
 <h2 id="_de_viktigste_forskjellene_mellom_sosi_fagområdestandard_og_sosi_produktspesifikasjoner">3. De viktigste forskjellene mellom SOSI fagområdestandard og SOSI produktspesifikasjoner</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Som tidligere nevnt er en fagområdestandards objektkatalog langt mer «åpen» enn en
-produktspesifikasjons objektkatalog. Men det er også andre informasjonselementer
-(kapitler) i en produktspesifikasjon som ikke finnes i en fagområdestandard, slik som:</p>
+<p>Som tidligere nevnt er en fagområdestandards objektkatalog langt mer «åpen» enn en produktspesifikasjons objektkatalog. Men det er også andre informasjonselementer (kapitler) i en produktspesifikasjon som ikke finnes i en fagområdestandard, slik som:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -632,30 +576,22 @@ produktspesifikasjons objektkatalog. Men det er også andre informasjonselemente
 <p>Fellesegenskaper som identifikasjon, oppdateringsdato og liknende.</p>
 </li>
 <li>
-<p>Kvalitetskrav. En produktspesifikasjon inneholder ofte krav til kvalitet
-(stedfestingskvalitet, fullstendighet, osv.).</p>
+<p>Kvalitetskrav. En produktspesifikasjon inneholder ofte krav til kvalitet (stedfestingskvalitet, fullstendighet, osv.).</p>
 </li>
 <li>
-<p>Referansesystem. Angivelse av hvilke system som dataen foreligger i / er tenkt å
-foreligge i, er angitt ved en EPSG kode og tilsvarende SYSKODE.</p>
+<p>Referansesystem. Angivelse av hvilke system som dataen foreligger i / er tenkt å foreligge i, er angitt ved en EPSG kode og tilsvarende SYSKODE.</p>
 </li>
 <li>
-<p>Datafangst. En produktspesifikasjon kan stille krav til hvordan data skal
-fremskaffes, f.eks. fotogrammetri, laser, terrengmåling, etc.)</p>
+<p>Datafangst. En produktspesifikasjon kan stille krav til hvordan data skal fremskaffes, f.eks. fotogrammetri, laser, terrengmåling, etc.)</p>
 </li>
 <li>
-<p>Tilgjengeliggjøring. Hvilke grensesnitt og format vil produktet realiseres på (WFS,
-GML, SOSI syntaks, +++). (En fagområdestandard vil ikke inneholde SOSI
-syntaks realisering eller GML applikasjonsskjema)</p>
+<p>Tilgjengeliggjøring. Hvilke grensesnitt og format vil produktet realiseres på (WFS, GML, SOSI syntaks, +++). (En fagområdestandard vil ikke inneholde SOSI syntaks realisering eller GML applikasjonsskjema)</p>
 </li>
 <li>
-<p>Presentasjonsinformasjon. En fagområdestandard vil sjelden ha
-presentasjonsregler.</p>
+<p>Presentasjonsinformasjon. En fagområdestandard vil sjelden ha presentasjonsregler.</p>
 </li>
 <li>
-<p>Metadata. En produktspesifikasjon kan angi hvilke metadataelementer som skal
-registreres for et produkt. Dette gjelder alle metadataelementer ut over de som
-er pålagt i Geodataloven, disse skal alltid registreres.</p>
+<p>Metadata. En produktspesifikasjon kan angi hvilke metadataelementer som skal registreres for et produkt. Dette gjelder alle metadataelementer ut over de som er pålagt i Geodataloven, disse skal alltid registreres.</p>
 </li>
 </ul>
 </div>
@@ -665,69 +601,42 @@ er pålagt i Geodataloven, disse skal alltid registreres.</p>
 <h2 id="_regler_for_forholdet_mellom_en_fagområdestandards_og_produktspesifikasjons_objektkatalog">4. Regler for forholdet mellom en fagområdestandards- og produktspesifikasjons objektkatalog</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Hovedregel er at SOSI produktspesifikasjoner skal innsnevre i forhold til SOSI
-fagområdestandarder:</p>
+<p>Hovedregel er at SOSI produktspesifikasjoner skal innsnevre i forhold til SOSI fagområdestandarder:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Påkrevde egenskaper og assosiasjoner i en SOSI fagområdestandard kan ikke
-gjøres opsjonelle ([1] &#8594; [0..1] er ikke tillatt).</p>
+<p>Påkrevde egenskaper og assosiasjoner i en SOSI fagområdestandard kan ikke gjøres opsjonelle ([1] &#8594; [0..1] er ikke tillatt).</p>
 </li>
 <li>
-<p>Opsjonelle egenskaper og assosiasjoner, der det finnes data, bør gjøres påkrevd
-([0..1] &#8594; [1] eller [0..*] &#8594; [1] eller [1..*] er tillatt.)</p>
+<p>Opsjonelle egenskaper og assosiasjoner, der det finnes data, bør gjøres påkrevd ([0..1] &#8594; [1] eller [0..*] &#8594; [1] eller [1..*] er tillatt.)</p>
 </li>
 <li>
-<p>En produktspesifikasjon utgjør som regel en delmengde av det som er definert i
-en fagområdestandard.</p>
+<p>En produktspesifikasjon utgjør som regel en delmengde av det som er definert i en fagområdestandard.</p>
 </li>
 <li>
-<p>Geometrityper kan innsnevres. I en fagområdestandard er ofte geometri modellert
-som et kurvesegment (GM_Curve). GM_Curve kan i en produktspesifikasjon
-snevres inn til en eller noen få segmenttyper, slik som GM_Arc eller
-GM_LineString. Dette gjøres som en restriksjon til geometrien i en
-produktspesifikasjon.</p>
+<p>Geometrityper kan innsnevres. I en fagområdestandard er ofte geometri modellert som et kurvesegment (GM_Curve). GM_Curve kan i en produktspesifikasjon snevres inn til en eller noen få segmenttyper, slik som GM_Arc eller GM_LineString. Dette gjøres som en restriksjon til geometrien i en produktspesifikasjon.</p>
 </li>
 <li>
-<p>Definisjoner på begreper i SOSI fagområdestandard skal være så generelle at de
-kan inngå i ulike produkter, og kan ikke endres. En produktspesifikasjon kan
-imidlertid gi tilleggsdefinisjoner som avgrenser eller innsnevrer begrepet i en gitt
-kontekst. Et eksempel på dette er f.eks. angivelse av minsteareal på et vann for
-at det skal inngå i produktet.</p>
+<p>Definisjoner på begreper i SOSI fagområdestandard skal være så generelle at de kan inngå i ulike produkter, og kan ikke endres. En produktspesifikasjon kan imidlertid gi tilleggsdefinisjoner som avgrenser eller innsnevrer begrepet i en gitt kontekst. Et eksempel på dette er f.eks. angivelse av minsteareal på et vann for at det skal inngå i produktet.</p>
 </li>
 <li>
-<p>En produktspesifikasjon kan snevre inn lovlige verdier i en kodeliste, enten denne
-er forvaltet i modellen eller eksternt. Dette gjøres som en constraint til den
-egenskapen som har kodelista som verditype. Endring av verdier i en ekstern
-forvaltet kodeliste gjøres av den etat som «eier» kodelista, dvs har
-forvaltningsansvar for kodelista. Utvidelse av koder i en kodeliste kan bare gjøres
-av den som er forvaltningsansvarlig</p>
+<p>En produktspesifikasjon kan snevre inn lovlige verdier i en kodeliste, enten denne er forvaltet i modellen eller eksternt. Dette gjøres som en constraint til den egenskapen som har kodelista som verditype. Endring av verdier i en ekstern forvaltet kodeliste gjøres av den etat som «eier» kodelista, dvs har forvaltningsansvar for kodelista. Utvidelse av koder i en kodeliste kan bare gjøres av den som er forvaltningsansvarlig</p>
 </li>
 <li>
-<p>En produktspesifikasjon kan introdusere nye begrep dersom disse ikke finnes i
-SOSI fagområdestandard. Da er det imidlertid viktig at disse meldes til
-standardiseringssekretariatet, enten direkte eller gjennom SOSI meldingsregister.</p>
+<p>En produktspesifikasjon kan introdusere nye begrep dersom disse ikke finnes i SOSI fagområdestandard. Da er det imidlertid viktig at disse meldes til standardiseringssekretariatet, enten direkte eller gjennom SOSI meldingsregister.</p>
 </li>
 <li>
-<p>En produktspesifikasjon kan ikke definere nye navn for begreper som allerede
-finnes i SOSI fagområdestandard.</p>
+<p>En produktspesifikasjon kan ikke definere nye navn for begreper som allerede finnes i SOSI fagområdestandard.</p>
 </li>
 <li>
-<p>En produktspesifikasjon kan ikke endre en egenskaps datatype slik denne
-fremkommer i SOSI fagområdestandard (Kan f.eks. ikke endre fra
-«CharacterString» til «Real»), men en tekstegenskap kan erstattes av ei kodeliste
-(subsett).</p>
+<p>En produktspesifikasjon kan ikke endre en egenskaps datatype slik denne fremkommer i SOSI fagområdestandard (Kan f.eks. ikke endre fra «CharacterString» til «Real»), men en tekstegenskap kan erstattes av ei kodeliste (subsett).</p>
 </li>
 <li>
-<p>En produktspesifikasjon er ikke bundet av fagområdeinndelingen i SOSI
-fagområdestandard, og kan bestå av begrep som er hentet fra flere
-fagområdestandarder (dvs å benytte begrep fra ulike tema). Da skal det henvises
-til de respektive fagområdestandarder i et pakkediagram.</p>
+<p>En produktspesifikasjon er ikke bundet av fagområdeinndelingen i SOSI fagområdestandard, og kan bestå av begrep som er hentet fra flere fagområdestandarder (dvs å benytte begrep fra ulike tema). Da skal det henvises til de respektive fagområdestandarder i et pakkediagram.</p>
 </li>
 <li>
-<p>En produktspesifikasjon skal angi hvilke fellesegenskaper som skal inngå.
-Påkrevde fellesegenskaper skal alltid være med.</p>
+<p>En produktspesifikasjon skal angi hvilke fellesegenskaper som skal inngå. Påkrevde fellesegenskaper skal alltid være med.</p>
 </li>
 </ul>
 </div>
@@ -736,7 +645,7 @@ Påkrevde fellesegenskaper skal alltid være med.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-09-09 14:33:49 +0200
+Sist oppdatert 2024-09-10 09:29:41 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">

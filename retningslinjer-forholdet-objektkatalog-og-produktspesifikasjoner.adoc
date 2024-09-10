@@ -18,7 +18,7 @@ include::Språk-{lang}.adoc[]
 Hva er en SOSI fagområdestandard og hva er en SOSI produktspesifikasjon, og hva er en SOSI objektkatalog. Begrepene i seg selv er veldefinerte, men allikevel har brukere og fagmiljøer til tider problemer med å bli enige om forholdet mellom dem. Dette dokumentet har som mål å presisere forskjellene og gi retningslinjer for hvordan man skal forholde seg til disse ulike konseptene.
 
 .Figuren viser forholdet mellom modeller i ulike standardnivå og deres tilhørende objektaktalgoer
-image::images/standardnivå_objektkataloger["Figur som viser forhold mellom modeller i ulike standardnivå og deres objektkataloger"]
+image::figurer/standardnivå_objektkataloger.png["Figur som viser forhold mellom modeller i ulike standardnivå og deres objektkataloger"]
 
 == Definisjoner
 Under følger definisjonene av henholdsvis objektkatalog, produktspesifikasjon og fagområdestandard. Engelsk beskrivelse er i henhold til ISO-19000 serien, den norske er fritt oversatt.
@@ -47,7 +47,7 @@ Merknad: En fagområdestandard skal beskrive den kjente virkeligheten og ikke ta
 == Forholdet mellom SOSI fagområdestandard og SOSI produktspesifikasjon
 
 .Figuren viser innsnevring av standarder i en produktspesifikasjon
-image::images/innsnevring["Figur som viser innsnevring av standarder i en produktspesifikasjon"]
+image::figurer/innsnevring.png["Figur som viser innsnevring av standarder i en produktspesifikasjon"]
 
 === SOSI fagområdestandard
 En SOSI fagområdestandard utgjør en beskrivelse av selve fagområde, herunder en informasjonsmodell (UML applikasjonsskjema) som inneholder de modellelementer som fremkommer i arbeidet, som igjen er basert på alle mulige begreper som er fremkommet i arbeidet.

@@ -69,6 +69,11 @@ En produktspesifikasjon er en detaljert beskrivelse av et datasett eller dataset
 
 De fleste produktspesifikasjoner i dag lages med utgangspunkt i å spesifisere eksisterende data. Det viktigste eksempel på dette er det offentlige kartgrunnlaget (DOK) hvor sentrale dataeiere må beskrive eksisterende data i form av produktspesifikasjoner, som utgangspunkt for å gjøre data tilgjengelige. Dette er til sammenligning ikke ulikt det som INSPIRE (Geodataloven) har som formål, å gjøre eksisterende data tilgjengelig, men ikke noe krav om ny datafangst for å dekke nye brukerbehov.
 
+=== SOSI standardisert produktspesifikasjon
+En SOSI standardisert produktspesifikasjon er en spesifikasjon som i tillegg til å oppfylle kravene til SOSI produktspesifikasjon også er utviklet som en SOSI-standard, dvs. er underlagt en konsensusprosess i en gruppe med åpen deltakelse, og der prosjektforslag og ferdig spesifikasjon godkjennes av Standardiseringskomiteen for Geomatikk.
+
+En SOSI standardisert produktspesifikasjon benyttes gjerne der man ønsker en standardiseringsprosess, men der nytten ved å beskrive fagområdet i en egen standard antas å være liten i forhold til kostnadene ved å utvikle en slik standard.  Dette kan f.eks. være dersom man antar produktspesifikasjonen vil være den eneste innenfor fagområdet, eller dersom spesifikasjonen i seg selv beskriver fagområdet godt nok til at nye spesifikasjoner kan utledes fra den.
+
 === En produktspesifikasjon kan gjerne brukes som et utkast til en standard, men da i en konsensusprosess og med åpen deltakelse
 Objektkatalogen er en katalog som definerer og beskriver begreper, dvs objekttyper med egenskaper, operasjoner og assosiasjoner. Både SOSI fagområdestandarder og SOSI produktspesifikasjoner har en objektkatalog. Objektkatalogen er modellert i UML (UML applikasjonsskjema) og alle modellelementer dokumenteres i tillegg tekstlig. 
 

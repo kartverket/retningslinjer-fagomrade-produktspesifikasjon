@@ -83,8 +83,8 @@ En fagområdestandards objektkatalog vil ha få påkrevde egenskaper, bare de eg
 Som tidligere nevnt er en fagområdestandards objektkatalog langt mer «åpen» enn en produktspesifikasjons objektkatalog. Men det er også andre informasjonselementer (kapitler) i en produktspesifikasjon som ikke finnes i en fagområdestandard, slik som:
 
 * Fellesegenskaper som identifikasjon, oppdateringsdato og liknende.
-* Kvalitetskrav. En produktspesifikasjon inneholder ofte krav til kvalitet (stedfestingskvalitet, fullstendighet, osv.).
-* Referansesystem. Angivelse av hvilke system som dataen foreligger i / er tenkt å foreligge i, er angitt ved en EPSG kode og tilsvarende SYSKODE.
+* Kvalitetskrav. En SOSI produktspesifikasjon inneholder krav til kvalitet (eks. stedfestingskvalitet, fullstendighet, osv.).
+* Referansesystem. Angivelse av hvilke system som dataen foreligger i / er tenkt å foreligge i, er angitt ved minst en EPSG kode eller SYSKODE, eller flere.
 * Datafangst. En produktspesifikasjon kan stille krav til hvordan data skal fremskaffes, f.eks. fotogrammetri, laser, terrengmåling, etc.) 
 * Tilgjengeliggjøring. Hvilke grensesnitt og format vil produktet realiseres på (WFS, GML, SOSI syntaks, \+++). (En fagområdestandard vil ikke inneholde SOSI syntaks realisering eller GML applikasjonsskjema)
 * Presentasjonsinformasjon. En fagområdestandard vil sjelden ha presentasjonsregler.
